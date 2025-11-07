@@ -1,55 +1,90 @@
 # 💻 Front-End Development Portfolio
 
-> "My dedicated portfolio for responsive web development projects. Features include UI/UX experiments, clone challenges, and practical applications using HTML, CSS, and modern JavaScript frameworks."
+> "A curated showcase of my front-end projects — blending creativity, responsive design, and functional interactivity using modern web technologies."
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7E017?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+---
 
 ## 🚀 Projects & Live Demos
 
-This collection showcases my proficiency in crafting responsive user interfaces and engaging user experiences (UX). Each project is hosted in its own dedicated sub-folder.
+A collection of responsive and interactive front-end projects built to strengthen my UI/UX and JavaScript development skills.  
+Each project resides in its own subfolder and includes a dedicated `README.md` (where applicable).
 
-|Project Name|Folder|Status|Key Technologies|Demo Link|
-|---|---|---|---|---|
-|**Netflix Landing Page Clone**|[netflix-clone/](https://www.google.com/search?q=./netflix-clone "null")|Completed|HTML, Tailwind CSS, Vanilla JS|[View Live](https://www.google.com/search?q=https://your-user-name.github.io/front-end-projects/netflix-clone "null")|
-|**Interactive Calculator Web**|[calculator-web/](https://www.google.com/search?q=./calculator-web "null")|Completed|HTML, CSS Grid, Advanced JavaScript|[View Live](https://www.google.com/search?q=https://your-user-name.github.io/front-end-projects/calculator-web "null")|
-|**Minimalist Todo List App**|[react-todo-list/](https://www.google.com/search?q=./react-todo-list "null")|Completed|React, Tailwind CSS, State Management|[View Live](https://www.google.com/search?q=https://your-user-name.github.io/front-end-projects/react-todo-list "null")|
-|**CSS Grid Portfolio Layout**|[portfolio-layout/](https://www.google.com/search?q=./portfolio-layout "null")|WIP|HTML, CSS Grid, Responsive Design|[View Live](https://www.google.com/search?q=https://your-user-name.github.io/front-end-projects/portfolio-layout "null")|
-|**Simple Game/Game 1**|[simple-game-one/](https://www.google.com/search?q=./simple-game-one "null")|Completed|HTML Canvas, Basic Game Loop, Tone.js (Sound)|[View Live](https://www.google.com/search?q=https://your-user-name.github.io/front-end-projects/simple-game-one "null")|
+| Project Name | Folder | Status | Key Technologies | Live Demo |
+|---------------|---------|---------|------------------|------------|
+| **Netflix Landing Page Clone** | [netflix-clone/](./netflix-clone) | ✅ Completed | HTML, Tailwind CSS, Vanilla JS | [View Live](https://ramadhanzakki.github.io/front-end-projects/netflix-clone) |
+| **Interactive Calculator Web** | [calculator-web/](./calculator-web) | ✅ Completed | HTML, CSS Grid, JavaScript | [View Live](https://ramadhanzakki.github.io/front-end-projects/calculator-web) |
+| **Minimalist Todo List App** | [react-todo-list/](./react-todo-list) | ✅ Completed | React, Tailwind CSS, State Management | [View Live](https://ramadhanzakki.github.io/front-end-projects/react-todo-list) |
+| **CSS Grid Portfolio Layout** | [portfolio-layout/](./portfolio-layout) | 🚧 Work in Progress | HTML, CSS Grid, Responsive Design | [View Live](https://ramadhanzakki.github.io/front-end-projects/portfolio-layout) |
+| **Simple Game #1** | [simple-game-one/](./simple-game-one) | ✅ Completed | HTML Canvas, Game Loop, Tone.js | [View Live](https://ramadhanzakki.github.io/front-end-projects/simple-game-one) |
+
+---
 
 ## 🌟 Core Focus Areas
 
-- **Responsive Design:** All projects are built to look and function perfectly across all screen sizes (Mobile, Tablet, Desktop).
-    
-- **UI/UX:** Emphasis on clean interfaces, intuitive navigation, and accessibility.
-    
-- **Modern CSS:** Utilizing Flexbox, CSS Grid, and utility-first frameworks like Tailwind CSS.
-    
-- **Frameworks & Libraries:** Practice with React, Svelte, or Angular (depending on project needs).
-    
+- 🎨 **Responsive Design:** Ensuring seamless experience across mobile, tablet, and desktop.  
+- 🧠 **UI/UX Principles:** Focused on intuitive, clean, and accessible interface design.  
+- ⚙️ **Modern CSS Techniques:** Utilizing Flexbox, CSS Grid, and Tailwind CSS for layout and styling.  
+- ⚡ **JavaScript Mastery:** Building interactive and dynamic elements with clean, modular code.  
+- ⚛️ **Framework Practice:** Experimenting with frameworks like React (and potentially Svelte/Angular in the future).  
 
-## 🛠️ How to Run Projects Locally
+---
+
+## 🛠️ Run Projects Locally
 
 1. **Clone the Repository:**
-    
-    ```
-    git clone [Your Repository URL]
-    cd front-end-projects
-    ```
-    
+   ```bash
+   git clone https://github.com/ramadhanzakki/front-end-projects.git
+   cd front-end-projects
+   ```
 2. **Navigate to a Specific Project:**
+	```bash
+	cd [project-folder-name]
+	# Example:
+	cd netflix-clone
+	```
+3. **Install Dependencies (if applicable):**
+	```bash
+	npm install
+	```
+4. **Run the Project:**
+
+	- For basic HTML/CSS/JS: open `index.html` in your browser.
+	    
+	- For React/Vue/etc: check each project’s own `README.md` (usually `npm run dev` or `npm start`).
+## 🌐 Deployment Notes
+
+All projects are deployed via **GitHub Pages** for quick access and demonstration.  
+Each live demo follows this URL format:
+```lua
+https://<your-username>.github.io/front-end-projects/<project-folder>/
+```
+Example:  
+[[https://ramadhanzakki.github.io/front-end-projects/netflix-clone]]
+
+## 📬 Contact & Links
+
+- **Portfolio Website:** _coming soon_
     
-    ```
-    cd [project-name-folder]
-    # Example: cd netflix-clone
-    ```
+- **GitHub:** [@ramadhanzakki](https://github.com/ramadhanzakki)
     
-3. **Install Dependencies (If applicable, e.g., for React/Vue projects):**
+- **LinkedIn:** Your LinkedIn Profile
     
-    ```
-    npm install
-    ```
-    
-4. **Start the Project Server:** _Refer to the project's specific `README.md` for exact run commands (e.g., `npm run dev` or simply opening `index.html`)._
+- **Email:** ramadhanzakki506@gmail.com
     
 
-## 🔑 Note on Deployment
+---
 
-All projects here are designed to be deployed via GitHub Pages. The live links above assume a URL structure based on your GitHub username and the repository name.
+### 💡 About This Repository
+
+This repository serves as my personal front-end learning ground — showcasing growth in coding, design thinking, and implementation of web standards.  
+Feedback, collaboration ideas, or suggestions are always welcome!
+
+---
+
+🧩 _“Great design is invisible; great code makes it work.”_
