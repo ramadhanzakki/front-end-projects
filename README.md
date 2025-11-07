@@ -15,13 +15,13 @@
 A collection of responsive and interactive front-end projects built to strengthen my UI/UX and JavaScript development skills.  
 Each project resides in its own subfolder and includes a dedicated `README.md` (where applicable).
 
-| Project Name | Folder | Status | Key Technologies | Live Demo |
-|---------------|---------|---------|------------------|------------|
-| **Netflix Landing Page Clone** | [netflix-clone/](./netflix-clone) | ✅ Completed | HTML, Tailwind CSS, Vanilla JS | [View Live](https://ramadhanzakki.github.io/front-end-projects/netflix-clone) |
-| **Interactive Calculator Web** | [calculator-web/](./calculator-web) | ✅ Completed | HTML, CSS Grid, JavaScript | [View Live](https://ramadhanzakki.github.io/front-end-projects/calculator-web) |
-| **Minimalist Todo List App** | [react-todo-list/](./react-todo-list) | ✅ Completed | React, Tailwind CSS, State Management | [View Live](https://ramadhanzakki.github.io/front-end-projects/react-todo-list) |
-| **CSS Grid Portfolio Layout** | [portfolio-layout/](./portfolio-layout) | 🚧 Work in Progress | HTML, CSS Grid, Responsive Design | [View Live](https://ramadhanzakki.github.io/front-end-projects/portfolio-layout) |
-| **Simple Game #1** | [simple-game-one/](./simple-game-one) | ✅ Completed | HTML Canvas, Game Loop, Tone.js | [View Live](https://ramadhanzakki.github.io/front-end-projects/simple-game-one) |
+| Project Name                       | Folder                                                                                                               | Status              | Key Technologies                | Live Demo                                                                        |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------------------- | -------------------------------------------------------------------------------- |
+| **Netflix Landing Page Clone**     | [netflix-clone/](https://github.com/ramadhanzakki/front-end-projects/tree/main/Netflix%20Landing%20Page%20Clone)     | ✅ Completed         | HTML, CSS, JavaScript           | [View Live](https://ramadhanzakki.github.io/front-end-projects/netflix-clone)    |
+| **Interactive Calculator Web**     | [calculator-web/](https://github.com/ramadhanzakki/front-end-projects/tree/main/Interactive%20Calculator%20Web)      | ✅ Completed         | HTML, CSS Grid, JavaScript      | [View Live](https://ramadhanzakki.github.io/front-end-projects/calculator-web)   |
+| **Minimalist Todo List App**       | [minimalis-todo-list/](https://github.com/ramadhanzakki/front-end-projects/tree/main/Minimalis%20Todo%20List%20App)  | ✅ Completed         | HTML, CSS, JavaScript           | [View Live](https://ramadhanzakki.github.io/front-end-projects/react-todo-list)  |
+| **Minimalis Football Score Board** | [portfolio-layout/](https://github.com/ramadhanzakki/front-end-projects/tree/main/Minimalis%20Football%20Scoreboard) | 🚧 Work in Progress | React, CSS, JavaScript          | [View Live](https://ramadhanzakki.github.io/front-end-projects/portfolio-layout) |
+
 
 ---
 
