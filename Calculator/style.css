@@ -1,0 +1,127 @@
+/* Impor Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+/* Reset dan Pengaturan Dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Pengaturan Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf8e2;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  color: #1b4d3e;
+}
+
+/* Wrapper Kalkulator Utama */
+.wrapper {
+  width: 90%;
+  max-width: 380px;
+  background-color: #fefcf4;
+  border-radius: 24px;
+  border: 3px solid #1b4d3e;
+  box-shadow: 10px 10px 0px #1b4d3e;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 15px 15px 10px #1b4d3e;
+}
+
+/* Bagian Layar */
+.screen {
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-height: 120px;
+  justify-content: flex-end;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.sub-screen {
+  font-size: 20px;
+  opacity: 0.7;
+  min-height: 24px;
+  font-weight: 500;
+}
+
+.main-screen {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Kontainer Tombol */
+.calc-buttons {
+  /* Menggunakan flex-direction column untuk menumpuk baris */
+  display: flex;
+  flex-direction: column; 
+  gap: 15px; /* Jarak antar baris tombol */
+  padding: 25px;
+  background-color: #c8f0e0;
+  border-top: 3px solid #1b4d3e;
+}
+
+/* BARIS TOMBOL - Ini adalah perubahan kuncinya */
+.calc-button-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px; /* Jarak antar tombol dalam satu baris */
+}
+
+/* Styling Tombol Umum */
+.calc-button {
+  background-color: #fefcf4;
+  color: #1b4d3e;
+  border: 3px solid #1b4d3e;
+  border-radius: 12px;
+  box-shadow: 5px 5px 0px #1b4d3e;
+  padding: 18px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  display: grid;
+  place-items: center;
+  
+  /* Membuat tombol mengisi ruang yang tersedia */
+  flex-grow: 1;
+  flex-basis: 0; /* Memberi basis yang sama pada semua tombol */
+}
+
+/* Efek saat tombol ditekan */
+.calc-button:active {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0px #1b4d3e;
+}
+
+/* Tombol yang membentang 2 kolom */
+.calc-button.double {
+  flex-grow: 2; /* Mengambil ruang 2x lipat dari tombol biasa */
+}
+
+/* Memberi warna berbeda untuk operator */
+.calc-button.operator {
+  background-color: #e0fcf4; 
+}
+
+/* Tombol DEL/Clear diberi warna aksen */
+.calc-button.clear {
+    background-color: #fce0e0;
+}
+
+/* Tombol RESULT diberi warna aksen utama */
+.calc-button.result {
+    background-color: #e0fcf4;
+}
